@@ -10,32 +10,43 @@
     </view>
   </view>
 
-  <block wx:for="{{feed}}" wx:for-index="idx" wx:for-item="item" data-idx="{{idx}}">
+  <block wx:for="{{feed}}" wx:for-item="item">
     <view class='feed-item'>
+      <!-- 头像及用户名称和行为 -->
       <view class='feed-source'>
         <a class="">
-          <view class='avator'>
+          <view class='avatar'>
             <image src="{{item.feed_source_img}}"></image>
           </view>
           <text>{{item.feed_source_name}}{{item.feed_source_txt}}</text>
         </a>
-        <image class='item-more' mode="aspectFit" src='../../image/more.png'></image>
+        <image class='item-more' mode="aspectFit" src='../../images/more.png'></image>
       </view>
 
       <view class='feed-content'>
+        <!-- 问题 -->
         <view class="question" qid="{{question_id}}" bindtap="bindQueTap">
           <a class="question-link">
             <text>{{item.question}}</text>
           </a>
         </view>
+        <!-- 回答简体 -->
         <view class='answer-body'>
+          <!-- 回答内容 -->
           <view bindtap="bindItemTap">
             <text class="answer-txt" aid="{{answer_id}}">{{item.answer_ctnt}}</text>
           </view>
+          <!-- 赞同与评论、关注问题 -->
           <view class="answer-actions" bindtap="bindItemTap">
-             <view class="like dot"><a>{{item.good_num}} 赞同</a></view>
-             <view class="comments dot"><a>{{item.comment_num}} 评论</a></view>
-             <view class="-it"><a>关注问题</a></view>
+            <view class="like dot">
+              <a>{{item.good_num}} 赞同</a>
+            </view>
+            <view class="comments dot">
+              <a>{{item.comment_num}} 评论</a>
+            </view>
+            <view class="-it">
+              <a>关注问题</a>
+            </view>
           </view>
         </view>
       </view>
