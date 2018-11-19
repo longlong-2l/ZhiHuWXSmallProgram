@@ -1,0 +1,29 @@
+<view class='container'>
+  <!-- 上半部分，问题主体 -->
+  <view class='question-wrap'>
+    <view class='head_tag_view'>
+      <text class='head_tag'>阅读</text>
+      <text class='head_tag'>电子书</text>
+      <text class='head_tag'>Kindle</text>
+      <text class='head_tag'>书籍</text>
+      <text class='head_tag'>文学</text>
+    </view>
+
+    <view class='que-title'>
+      选择Kindle而不是纸质书的原因是什么？
+    </view>
+    <view class='que-vector'>
+      Android开发*RN开发*后台开发预备军
+    </view>
+    <view class='que-follow'>
+      <view class='watch'>
+        <image src='../../images/eye.png'></image>
+        <text>3316</text>
+      </view>
+      <view class='comment'>
+      <image src='../../images/comment2.png'> </image>
+      </view>
+    </view>
+  </view>
+  <view class='question-feed'></view>
+</view>
