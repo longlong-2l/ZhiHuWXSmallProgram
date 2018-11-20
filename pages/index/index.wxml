@@ -20,7 +20,7 @@
           </view>
           <text>{{item.feed_source_name}}{{item.feed_source_txt}}</text>
         </a>
-        <image class='item-more' mode="aspectFit" src='../../images/more.png'></image>
+        <image bindtap="bindQueTap" class='item-more' mode="aspectFit" src='../../images/more.png'></image>
       </view>
 
       <view class='feed-content'>

@@ -19,8 +19,7 @@ Page({
   //事件处理函数,跳转到问题页
   bindQueTap: function() {
     wx.navigateTo({
-      //url: '../question/question'
-      url: '',
+      url: '../question/question'
     })
   },
 
