@@ -11,8 +11,7 @@ Page({
   //事件处理函数,跳转到回答页
   bindItemTap: function() {
     wx.navigateTo({
-      //url: '../answer/answer'
-      url: ""
+      url: '../answer/answer'
     })
   },
 

@@ -6,6 +6,7 @@
     "pages/chat/chat",
     "pages/more/more",
     "pages/question/question",
+    "pages/answer/answer",
     "pages/logs/logs"
   ],
   "window": {
