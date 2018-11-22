@@ -31,21 +31,21 @@
       },
       {
         "pagePath": "pages/discovery/discovery",
-        "text": "发现",
-        "iconPath": "images/discovery.png",
+        "text": "想法",
+        "iconPath": "images/idea.png",
         "selectedIconPath": "images/discovery_focus.png"
       },
       {
         "pagePath": "pages/notify/notify",
-        "text": "通知",
-        "iconPath": "images/ring.png",
+        "text": "市场",
+        "iconPath": "images/market.png",
         "selectedIconPath": "images/ring_focus.png"
       },
       {
         "pagePath": "pages/chat/chat",
-        "text": "聊天",
-        "iconPath": "images/chat.png",
-        "selectedIconPath": "images/chat_focus.png"
+        "text": "通知",
+        "iconPath": "images/identify.png",
+        "selectedIconPath": "images/ring_focus.png"
       },
       {
         "pagePath": "pages/more/more",

@@ -114,7 +114,7 @@
 }
 
 .container .feed-item .feed-content .question text {
-  font-size: 28rpx;
+  font-size: 32rpx;
   font-weight: 600rpx;
   line-height: 40rpx;
 }

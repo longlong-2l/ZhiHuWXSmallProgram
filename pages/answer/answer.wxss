@@ -1,40 +1,34 @@
 /* pages/answer/answer.wxss */
 
-.answer {
-  flex: 1;
-}
-
 .answer .head .head_title {
-  background: #298de5;
-  padding: 40rpx 50rpx 90rpx;
+  background: #fff;
+  padding: 20rpx 40rpx;
+  border-bottom: solid 1px #bebebe;
 }
 
 .answer .head .head_title text {
   font-size: 38rpx;
-  color: #fff;
+  color: #000;
+  font-weight: bold;
 }
 
-.answer .head .head_person {
-  position: absolute;
-  top: 160rpx;
-  left: 40rpx;
-  right: 40rpx;
+.answer .head_person {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 20rpx;
+  border-top: 5px solid #eee;
+  border-bottom: 0.5px solid #ebebeb;
   background: #fff;
-  box-shadow: 0 1px 2px #bebebe;
-  border-radius: 5rpx;
 }
 
-.answer .head .head_person image {
+.answer .head_person image {
   width: 90rpx;
   height: 90rpx;
   border-radius: 90rpx;
 }
 
-.head .head_person .user_info {
+.answer .head_person .user_info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -42,38 +36,55 @@
   justify-content: center;
 }
 
-.head .head_person .user_name {
+.answer .head_person .user_name {
   font-size: 32rpx;
   color: #000;
 }
 
-.head .head_person .user_identify {
+.answer .head_person .user_identify {
   font-size: 22rpx;
   color: #808080;
 }
 
-.head .head_person .add_watch {
-  color: #40bcd0;
-  border: solid 2px #40bcd0;
-  border-radius: 6rpx;
+.answer .head_person .add_watch {
+  position: absolute;
+  right: 0;
+  color: #0767c8;
+  border: solid 1px #0767c8;
+  border-radius: 10rpx;
   font-size: 22rpx;
-  padding: 10rpx 15rpx;
-  margin-left: 40rpx;
+  padding: 15rpx 20rpx;
+  margin-right: 20rpx;
 }
 
 .body {
-  margin-top: 80rpx;
+  margin-top: 60rpx;
   padding: 0 40rpx;
+}
+
+.body image {
+  width: 100%;
 }
 
 .body text {
   font-size: 32rpx;
 }
 
+.body .content_time {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;
+  justify-content: center;
+  color: #bebebe;
+  margin-top: 70rpx;
+  margin-bottom: 150rpx;
+}
+
 .answer_foot {
   position: fixed;
   bottom: 0;
-  width: 670rpx;
+  width: 675rpx;
   background: #fff;
   height: 70rpx;
   padding: 20rpx 40rpx;
@@ -91,7 +102,7 @@
   justify-content: center;
   border-radius: 5rpx;
   padding: 10rpx;
-  border: solid 1px #ebebeb
+  border: solid 1px #ebebeb;
 }
 
 .answer_foot .foot_see image {

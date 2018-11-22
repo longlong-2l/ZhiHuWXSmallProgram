@@ -1,19 +1,20 @@
-<!--pages/answer/answer.wxml-->
+<!--pages/answer/answer.wxml 还有未解决的问题，底部tab覆盖了部分回答内容，不知道怎么解决-->
 <view class='answer'>
   <!-- 头部部分 -->
   <view class='head'>
     <view class='head_title'>
       <text>选择 Kindle 而不是纸质书的原因是什么？</text>
     </view>
-    <view class='head_person'>
-      <image src='../../images/icon1.jpeg'></image>
-      <view class='user_info'>
-        <text class='user_name'>SurpassLi</text>
-        <text class='user_identify'> Android开发*RN开发*后台开发预备军</text>
-      </view>
-      <text class='add_watch'>+ 关注</text>
-    </view>
   </view>
+  <view class='head_person'>
+    <image src='../../images/icon1.jpeg'></image>
+    <view class='user_info'>
+      <text class='user_name'>SurpassLi</text>
+      <text class='user_identify'> Android开发*RN开发*后台开发预备军</text>
+    </view>
+    <text class='add_watch'>+ 关注</text>
+  </view>
+
   <!-- 内容部分 -->
   <view class='body'>
     <text>难道不明白纸质书更贵啊！！！
@@ -41,7 +42,12 @@
             碎片时间阅读总不能天天背着一本书吧，那么占地方。
 
             看到描述最后一段，感觉有骗答案的嫌疑</text>
+    <view class='content_time'>
+      <text>发布于 2018-09-08</text>
+      <text>著作权归作者所有</text>
+    </view>
   </view>
+  <!-- 底部部分 -->
   <view class='answer_foot'>
 
     <view class='foot_see'>
