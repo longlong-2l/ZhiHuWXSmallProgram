@@ -1,0 +1,14 @@
+<!--pages/idea/idea.wxml 想法-->
+<view class='idea_container'>
+  <view class='head'>
+    <image class="avatar" src='../../images/icon8.jpg'></image>
+    <text class="head_idea">想法</text>
+    <text class='head_right'>推荐频道</text>
+  </view>
+
+  <view class='watch'>
+
+  <text>关注有趣的人，收获更多好想法</text>
+  <!-- <block wx:for> -->
+  </view>
+</view>

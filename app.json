@@ -1,9 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/discovery/discovery",
+    "pages/idea/idea",
+    "pages/market/market",
     "pages/notify/notify",
-    "pages/chat/chat",
     "pages/more/more",
     "pages/question/question",
     "pages/answer/answer",
@@ -30,19 +30,19 @@
         "selectedIconPath": "images/index_focus.png"
       },
       {
-        "pagePath": "pages/discovery/discovery",
+        "pagePath": "pages/idea/idea",
         "text": "想法",
         "iconPath": "images/idea.png",
         "selectedIconPath": "images/discovery_focus.png"
       },
       {
-        "pagePath": "pages/notify/notify",
+        "pagePath": "pages/market/market",
         "text": "市场",
         "iconPath": "images/market.png",
         "selectedIconPath": "images/ring_focus.png"
       },
       {
-        "pagePath": "pages/chat/chat",
+        "pagePath": "pages/notify/notify",
         "text": "通知",
         "iconPath": "images/identify.png",
         "selectedIconPath": "images/ring_focus.png"
